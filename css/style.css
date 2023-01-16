@@ -10,21 +10,45 @@ th, td{
   text-align:left;
 }
 
-footer, main{
+header, main, footer{
   margin-left: 12px;
+  margin-right: 5px;
+  margin-top: 15px;
+  margin-bottom: 12px;
 }
 
 
+h3, h4,h6{
+  color: #7C7C7C;
+  margin: 0 0 0 0;
+  
+}
 .topbanner{
   background-color: #14A4E3;
   background-image: url("../img/pattern.png");
   height: 185px;
 }
 
-h1,h4, h6{
-  margin-left: 12px;
-  margin-top: 15px ;
-  margin-bottom: 12px;
+table{
+  
+  margin-right: 10px;
+}
+#tr-head{
+  background-color: #20A9E5;
+  
+}
+
+th, td {
+  min-width: 200px;
+  
+}
+
+footer h3{
+  margin-bottom: 20px;
+}
+
+.tr-colored{
+  background-color: #B1E5F2;
 }
 
 .didascalia-img{
@@ -43,6 +67,10 @@ h1,h4, h6{
   text-decoration: none;
 }
 
+#evidenziato{
+  background-color: #FFFF00;
+}
+
 footer a{
   text-decoration: none;
   background-repeat: no-repeat;  
@@ -51,6 +79,7 @@ footer a{
   height: 220px;
   color: white;
   font-size: larger;
+  font-weight: bold;
   padding-left: 20px;
   padding-top: 20px;
 }
