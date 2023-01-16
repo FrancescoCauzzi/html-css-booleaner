@@ -9,6 +9,12 @@ body{
 th, td{
   text-align:left;
 }
+
+footer, main{
+  margin-left: 12px;
+}
+
+
 .topbanner{
   background-color: #14A4E3;
   background-image: url("../img/pattern.png");
@@ -21,6 +27,11 @@ h1,h4, h6{
   margin-bottom: 12px;
 }
 
+.didascalia-img{
+  font-size: 10px;
+  margin: 0 0 0 0;
+}
+
 #the-booleaner-logo{
   height: 82px;
   width:  383px;
@@ -30,4 +41,23 @@ h1,h4, h6{
 #the-booleaner{
   color: #14A4E3;
   text-decoration: none;
+}
+
+footer a{
+  text-decoration: none;
+  background-repeat: no-repeat;  
+  display: inline-block;
+  width: 300px;
+  height: 220px;
+  color: white;
+  font-size: larger;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#a-footer-1{
+  background-image: url(../img/monitor.jpg);
+}
+
+#a-footer-2{
+  background-image: url(../img/graph.jpg);  
 }
