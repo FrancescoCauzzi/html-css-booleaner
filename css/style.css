@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  border: 1px solid aqua ;
+}
+
+th, td{
+  text-align:left;
+}
+.topbanner{
+  background-color: #14A4E3;
+  background-image: url("../img/pattern.png");
+  height: 185px;
+}
+
+h1,h4, h6{
+  margin-left: 12px;
+  margin-top: 15px ;
+  margin-bottom: 12px;
+}
+
+#the-booleaner-logo{
+  height: 82px;
+  width:  383px;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+#the-booleaner{
+  color: #14A4E3;
+  text-decoration: none;
+}
