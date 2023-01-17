@@ -11,8 +11,8 @@ th, td{
 }
 
 header, main, footer{
-  margin-left: 12px;
-  margin-right: 5px;
+  margin-left: 200px;
+  margin-right:200px;
   margin-top: 15px;
   margin-bottom: 12px;
 }
@@ -80,7 +80,7 @@ footer a{
   background-color: #20A9E5; 
 }
 
-#the-booleaner-logo{
+nav img{
   height: 82px;
   width:  383px;
   margin-top: 80px;
