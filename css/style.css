@@ -1,9 +1,23 @@
 *{
   box-sizing: border-box;
   
+  
 }
 body{
   border: 1px solid #4EA0FF ;
+}
+
+nav{
+  background-color: #4EA0FF;
+  background-image: url("../img/pattern.png");
+  height: 185px;
+}
+
+nav img{
+  height: 82px;
+  width:  383px;
+  margin-top: 80px;
+  margin-left: 10px;
 }
 
 th, td{
@@ -57,11 +71,6 @@ footer a{
   padding-top: 20px;
 }
 
-.topbanner{
-  background-color: #4EA0FF;
-  background-image: url("../img/pattern.png");
-  height: 185px;
-}
 
 .tr-colored{
   background-color: #B1E5F2;
@@ -80,12 +89,7 @@ footer a{
   background-color: #20A9E5; 
 }
 
-nav img{
-  height: 82px;
-  width:  383px;
-  margin-top: 80px;
-  margin-left: 10px;
-}
+
 #the-booleaner{
   color: #14A4E3;
   text-decoration: none;
